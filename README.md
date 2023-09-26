@@ -14,6 +14,8 @@ Label class file can be downloaded from this repository or from this [link](http
 Moreover, the prediction model resulted from the training will be stored in this directory: <br /> /content/drive/MyDrive/proj_name/model/bss_model/ <br />
 
 The prediction model that was used in the project can be downloaded [here](https://drive.google.com/drive/folders/1dweq_9_x8r_Hb6iXJpC3YqypLZjMdZP4?usp=sharing), which can then be uploaded to the directory mentioned above. 
+
+Here are the result of model training and image segmentation process. 
 ![Prediction Result](https://github.com/widifadi/SEERI-Building_Segmentation/assets/82517622/650b430b-7454-4078-a5af-6a5edf923a04)
 ![Best IoU Plot](https://github.com/widifadi/SEERI-Building_Segmentation/assets/82517622/34f2b996-3a0a-49ae-b616-43d4b5e1d87f)
 ![Best Dice Loss Plot](https://github.com/widifadi/SEERI-Building_Segmentation/assets/82517622/4bfa6feb-d445-4893-83d4-1ccefe3d81d9)
@@ -25,6 +27,7 @@ The regularization on the predicted building shape was done using the repo from:
 
 Note that as some error occured when using regularize.py from the provided repo on google colab, the code was slightly adjusted and the modified code can be downloaded [here](https://drive.google.com/drive/folders/1LVSCoZ6nrpqBzJOb941p85l_ySJrPY4K?usp=sharing) or from this repository. 
 
+The figure below shows the result of the building shape after regularization process.
 ![Regularized Result](https://github.com/widifadi/SEERI-Building_Segmentation/assets/82517622/a0effe42-dfe7-4aa6-80e7-2556b2c9670a)
 
 
