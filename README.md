@@ -1,1 +1,1 @@
-# SEERI-Building_Segmentation
+# SEERI Building Segmentation
